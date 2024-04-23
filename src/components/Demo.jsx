@@ -64,11 +64,11 @@ const Demo = () => {
   return (
     <section className="mt-16 mb-16 w-full max-w-3xl">
       <h2 className="pb-10 text-center text-3xl font-bold">
-        Summarize your article with just{" "}
+        Summarize your Website with just{" "}
         <span className="text-purple-700">One click</span>
       </h2>
       <div className="flex flex-col w-full gap-2">
-        <p className="text-xl">Enter the article</p>
+        <p className="text-xl">Enter the Website URL</p>
         <form
           className="relative flex justify-center items-center"
           onSubmit={handleSubmit}
